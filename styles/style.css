@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #28536b;
+  background-color: #BBB193;
   font-family: Calibri, Arial, sans-serif;
   min-height: 100vh;
   display: flex;
@@ -8,8 +12,8 @@ body {
 }
 
 .image {
-  background-image: url("../images/praso.jpg");
-  height: 500px;
+  background-image: url("../images/morze.jpg");
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,19 +26,19 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #f6f0ed;
+  color: #232120;
 }
 
 nav {
-  background-color: #C2948A;
+  background-color: #232120;
 }
 
 nav a {
-  color: #28536B;
+  color: #f6f0ed;
 }
 
 nav a:hover {
-  color: #232120;
+  color: #C2948A;
 }
 
 .blok1 {
@@ -43,30 +47,41 @@ nav a:hover {
   box-shadow: 5px 5px 5px #232120;
   border-radius: 15px;
   padding: 1px;
+  color: #232120;
 }
 
 .blok2 {
-  background-color: #bbb193;
+  background-color: #28536b;
   width: 100%;
   box-shadow: 5px 5px 5px #232120;
   border-radius: 5px;
+  color: #f6f0ed;
 }
 
 .blok3 {
   background-color: #232120;
-  color: #f6f0ed;
   width: 100%;
   box-shadow: 5px 5px 5px #232120;
   border-radius: 5px;
+  color: #f6f0ed;
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 footer {
   margin-top: auto;
   text-align: center;
-  font-size: 12px;
-  color: gray;
+  font-size: 0.75rem;
   padding: 5px;
-  background-color: #BBB193;
+  background-color: #C2948A;
+}
+
+footer a {
+      color: #28536B;
 }
 
 #rok {
