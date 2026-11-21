@@ -1,0 +1,74 @@
+body {
+  background-color: #28536b;
+  font-family: Calibri, Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.image {
+  background-image: url("images/praso.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.start {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f6f0ed;
+}
+
+nav {
+  background-color: #C2948A;
+}
+
+nav a {
+  color: #28536B;
+}
+
+nav a:hover {
+  color: #232120;
+}
+
+.blok1 {
+  background-color: #c2948a;
+  width: 100%;
+  box-shadow: 5px 5px 5px #232120;
+  border-radius: 15px;
+  padding: 1px;
+}
+
+.blok2 {
+  background-color: #bbb193;
+  width: 100%;
+  box-shadow: 5px 5px 5px #232120;
+  border-radius: 5px;
+}
+
+.blok3 {
+  background-color: #232120;
+  color: #f6f0ed;
+  width: 100%;
+  box-shadow: 5px 5px 5px #232120;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+  padding: 5px;
+  background-color: #BBB193;
+}
+
+#rok {
+  color: #232120;
+}
